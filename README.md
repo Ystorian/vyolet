@@ -12,10 +12,8 @@ git subtree add https://github.com/ystorian/vyolet.git themes/vyolet
 
 ## Dependencies
 
-The following repositories were forked to be used as git submodules in this
-theme. They are locked to specific branches named
-`vyolet-<repository>-<version>` (e.g. `vyolet-bulma-0.9.5`) to allow for easier
-checkout based on tags.
+In July 2024 the theme was changed to use `git subtree` instead of `git submodule`.
+This result in a larger repository, but it allows for easier maintenance.
 
 ### Bulma
 
@@ -25,22 +23,24 @@ The Bulma repository is vendored in `vendor/bulma`.
 git subtree add --prefix=vendor/bulma https://github.com/jgthms/bulma.git 1.0.2 --squash
 ```
 
-To update the Bulma version, simply checkout the desired `<tag>` and commit.
+To update the version, simply checkout the desired `<tag>` and commit.
 
 ```shell
 git subtree pull --prefix=vendor/bulma https://github.com/jgthms/bulma.git <tag> --squash
-
+```
 
 ### Lucide
 
-Add the Lucide repository in `vendor/lucide`, and keep only the `icons` subdirectory.
+The Lucide repository vendored in `vendor/lucide`, and keep only the `icons` subdirectory.
 
 ```shell
-git submodule add git@github.com:ystorian/lucide.git vendor/lucide
-cd vendor/lucide
-git sparse-checkout init --cone
-git sparse-checkout set icons
-git checkout vyolet-lucide-0.274.0
+git subtree add --prefix=vendor/lucide https://github.com/lucide-icons/lucide.git 0.417.0 --squash
+```
+
+To update the version, simply checkout the desired `<tag>` and commit.
+
+```shell
+git subtree pull --prefix=vendor/lucide https://github.com/lucide-icons/lucide.git <tag> --squash
 ```
 
 ## Theming
