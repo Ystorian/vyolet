@@ -1,3 +1,0 @@
-[submodule "vendor/lucide"]
-	path = vendor/lucide
-	url = git@github.com:ystorian/lucide.git
