@@ -1,0 +1,477 @@
+---
+title: Color helpers
+layout: docs
+theme: helpers
+doc-tab: helpers
+doc-subtab: helpers-color
+breadcrumb:
+  - home
+  - documentation
+  - helpers
+  - helpers-color
+---
+
+{% include docs/elements/anchor.html name="Text color" %}
+
+<div class="content">
+  <p>
+    You can set any element to one of the <strong>10 colors</strong> or
+    <strong>9 shades of grey</strong>:
+  </p>
+</div>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Color</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-text-white</code></td>
+      <td>{% include docs/color/white.html %}</td>
+      <td class="has-text-white has-background-black">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-black</code></td>
+      <td>{% include docs/color/black.html %}</td>
+      <td class="has-text-black">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-light</code></td>
+      <td>{% include docs/color/white-ter.html %}</td>
+      <td class="has-text-light has-background-grey">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-dark</code></td>
+      <td>{% include docs/color/grey-darker.html %}</td>
+      <td class="has-text-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-primary</code></td>
+      <td>{% include docs/color/turquoise.html %}</td>
+      <td class="has-text-primary">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-link</code></td>
+      <td>{% include docs/color/blue.html %}</td>
+      <td class="has-text-link">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-info</code></td>
+      <td>{% include docs/color/cyan.html %}</td>
+      <td class="has-text-info">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-success</code></td>
+      <td>{% include docs/color/green.html %}</td>
+      <td class="has-text-success">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-warning</code></td>
+      <td>{% include docs/color/yellow.html %}</td>
+      <td class="has-text-warning">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-danger</code></td>
+      <td>{% include docs/color/red.html %}</td>
+      <td class="has-text-danger">Hello Bulma</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Shade</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-text-black-bis</code></td>
+      <td>{% include docs/color/black-bis.html %}</td>
+      <td class="has-text-black-bis">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-black-ter</code></td>
+      <td>{% include docs/color/black-ter.html %}</td>
+      <td class="has-text-black-ter">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-grey-darker</code></td>
+      <td>{% include docs/color/grey-darker.html %}</td>
+      <td class="has-text-grey-darker">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-grey-dark</code></td>
+      <td>{% include docs/color/grey-dark.html %}</td>
+      <td class="has-text-grey-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-grey</code></td>
+      <td>{% include docs/color/grey.html %}</td>
+      <td class="has-text-grey">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-grey-light</code></td>
+      <td>{% include docs/color/grey-light.html %}</td>
+      <td class="has-text-grey-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-grey-lighter</code></td>
+      <td>{% include docs/color/grey-lighter.html %}</td>
+      <td class="has-text-grey-lighter">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-white-ter</code></td>
+      <td>{% include docs/color/white-ter.html %}</td>
+      <td class="has-background-black-ter has-text-white-ter">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-white-bis</code></td>
+      <td>{% include docs/color/white-bis.html %}</td>
+      <td class="has-background-black-bis has-text-white-bis">Hello Bulma</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="block">
+  You can use each color in their <strong>light</strong> and
+  <strong>dark versions</strong>. Simply append <code>*-light</code> or
+  <code>*-dark</code>.
+</p>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Light/Dark color</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-text-primary-light</code></td>
+      <td>{% include docs/color/turquoise-light.html %}</td>
+      <td class="has-background-dark has-text-primary-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-link-light</code></td>
+      <td>{% include docs/color/blue-light.html %}</td>
+      <td class="has-background-dark has-text-link-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-info-light</code></td>
+      <td>{% include docs/color/cyan-light.html %}</td>
+      <td class="has-background-dark has-text-info-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-success-light</code></td>
+      <td>{% include docs/color/green-light.html %}</td>
+      <td class="has-background-dark has-text-success-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-warning-light</code></td>
+      <td>{% include docs/color/yellow-light.html %}</td>
+      <td class="has-background-dark has-text-warning-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-danger-light</code></td>
+      <td>{% include docs/color/red-light.html %}</td>
+      <td class="has-background-dark has-text-danger-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-primary-dark</code></td>
+      <td>{% include docs/color/turquoise-dark.html %}</td>
+      <td class="has-text-primary-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-link-dark</code></td>
+      <td>{% include docs/color/blue-dark.html %}</td>
+      <td class="has-text-link-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-info-dark</code></td>
+      <td>{% include docs/color/cyan-dark.html %}</td>
+      <td class="has-text-info-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-success-dark</code></td>
+      <td>{% include docs/color/green-dark.html %}</td>
+      <td class="has-text-success-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-warning-dark</code></td>
+      <td>{% include docs/color/yellow-dark.html %}</td>
+      <td class="has-text-warning-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-danger-dark</code></td>
+      <td>{% include docs/color/red-dark.html %}</td>
+      <td class="has-text-danger-dark">Hello Bulma</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="block">
+  You can also <strong>inherit</strong> the color, or use the
+  <strong>current</strong> one:
+</p>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Value</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-text-current</code></td>
+      <td>{% include docs/color/current.html %}</td>
+      <td class="has-text-current">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-text-inherit</code></td>
+      <td>{% include docs/color/inherit.html %}</td>
+      <td class="has-text-inherit">Hello Bulma</td>
+    </tr>
+  </tbody>
+</table>
+
+{% assign vernum = site.data.meta.version | downcase | remove: '.' | plus: 0 %}
+{% include docs/elements/anchor.html name="Background color" %}
+
+<div class="content">
+  <p>
+    You can set any element to one of the <strong>10 colors</strong> or
+    <strong>9 shades of grey</strong>:
+  </p>
+</div>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th colspan="2">Background color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-background-white</code></td>
+      <td>{% include docs/color/white.html %}</td>
+      <td class="has-background-white" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-black</code></td>
+      <td>{% include docs/color/black.html %}</td>
+      <td class="has-background-black" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-light</code></td>
+      <td>{% include docs/color/white-ter.html %}</td>
+      <td class="has-background-light" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-dark</code></td>
+      <td>{% include docs/color/grey-darker.html %}</td>
+      <td class="has-background-dark" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-primary</code></td>
+      <td>{% include docs/color/turquoise.html %}</td>
+      <td class="has-background-primary" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-link</code></td>
+      <td>{% include docs/color/blue.html %}</td>
+      <td class="has-background-link" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-info</code></td>
+      <td>{% include docs/color/cyan.html %}</td>
+      <td class="has-background-info" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-success</code></td>
+      <td>{% include docs/color/green.html %}</td>
+      <td class="has-background-success" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-warning</code></td>
+      <td>{% include docs/color/yellow.html %}</td>
+      <td class="has-background-warning" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-danger</code></td>
+      <td>{% include docs/color/red.html %}</td>
+      <td class="has-background-danger" style="width: 3rem"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th colspan="2">Background shade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-background-black-bis</code></td>
+      <td>{% include docs/color/black-bis.html %}</td>
+      <td class="has-background-black-bis" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-black-ter</code></td>
+      <td>{% include docs/color/black-ter.html %}</td>
+      <td class="has-background-black-ter" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-grey-darker</code></td>
+      <td>{% include docs/color/grey-darker.html %}</td>
+      <td class="has-background-grey-darker" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-grey-dark</code></td>
+      <td>{% include docs/color/grey-dark.html %}</td>
+      <td class="has-background-grey-dark" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-grey</code></td>
+      <td>{% include docs/color/grey.html %}</td>
+      <td class="has-background-grey" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-grey-light</code></td>
+      <td>{% include docs/color/grey-light.html %}</td>
+      <td class="has-background-grey-light" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-grey-lighter</code></td>
+      <td>{% include docs/color/grey-lighter.html %}</td>
+      <td class="has-background-grey-lighter" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-white-ter</code></td>
+      <td>{% include docs/color/white-ter.html %}</td>
+      <td class="has-background-white-ter" style="width: 3rem"></td>
+    </tr>
+    <tr>
+      <td><code>has-background-white-bis</code></td>
+      <td>{% include docs/color/white-bis.html %}</td>
+      <td class="has-background-white-bis" style="width: 3rem"></td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="block">
+  You can use each color in their <strong>light</strong> and
+  <strong>dark versions</strong>. Simply append <code>*-light</code> or
+  <code>*-dark</code>.
+</p>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Light/Dark background</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-background-primary-light</code></td>
+      <td>{% include docs/color/turquoise-light.html %}</td>
+      <td class="has-text-primary has-background-primary-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-link-light</code></td>
+      <td>{% include docs/color/blue-light.html %}</td>
+      <td class="has-text-link has-background-link-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-info-light</code></td>
+      <td>{% include docs/color/cyan-light.html %}</td>
+      <td class="has-text-info has-background-info-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-success-light</code></td>
+      <td>{% include docs/color/green-light.html %}</td>
+      <td class="has-text-success has-background-success-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-warning-light</code></td>
+      <td>{% include docs/color/yellow-light.html %}</td>
+      <td class="has-text-warning has-background-warning-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-danger-light</code></td>
+      <td>{% include docs/color/red-light.html %}</td>
+      <td class="has-text-danger has-background-danger-light">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-primary-dark</code></td>
+      <td>{% include docs/color/turquoise-dark.html %}</td>
+      <td class="has-text-white has-background-primary-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-link-dark</code></td>
+      <td>{% include docs/color/blue-dark.html %}</td>
+      <td class="has-text-white has-background-link-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-info-dark</code></td>
+      <td>{% include docs/color/cyan-dark.html %}</td>
+      <td class="has-text-white has-background-info-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-success-dark</code></td>
+      <td>{% include docs/color/green-dark.html %}</td>
+      <td class="has-text-white has-background-success-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-warning-dark</code></td>
+      <td>{% include docs/color/yellow-dark.html %}</td>
+      <td class="has-text-white has-background-warning-dark">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-danger-dark</code></td>
+      <td>{% include docs/color/red-dark.html %}</td>
+      <td class="has-text-white has-background-danger-dark">Hello Bulma</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="block">
+  You can also <strong>inherit</strong> the background color, or use the
+  <strong>current color</strong> as background one:
+</p>
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Value</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>has-background-current</code></td>
+      <td>{% include docs/color/current.html %}</td>
+      <td class="has-background-current">Hello Bulma</td>
+    </tr>
+    <tr>
+      <td><code>has-background-inherit</code></td>
+      <td>{% include docs/color/inherit.html %}</td>
+      <td class="has-background-inherit">Hello Bulma</td>
+    </tr>
+  </tbody>
+</table>

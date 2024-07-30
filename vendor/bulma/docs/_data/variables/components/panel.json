@@ -1,0 +1,208 @@
+{
+  "sass-vars": [
+    {
+      "name": "panel-margin",
+      "value": "var(--bulma-block-spacing)",
+      "css-var": "panel-margin"
+    },
+    {
+      "name": "panel-item-border",
+      "value": "1px solid var(--bulma-border-weak)",
+      "css-var": "panel-item-border"
+    },
+    {
+      "name": "panel-radius",
+      "value": "var(--bulma-radius-large)",
+      "css-var": "panel-radius"
+    },
+    {
+      "name": "panel-shadow",
+      "value": "var(--bulma-shadow)",
+      "css-var": "panel-shadow"
+    },
+    {
+      "name": "panel-heading-line-height",
+      "value": "1.25",
+      "css-var": "panel-heading-line-height"
+    },
+    {
+      "name": "panel-heading-padding",
+      "value": "1em 1.25em",
+      "css-var": "panel-heading-padding"
+    },
+    {
+      "name": "panel-heading-radius",
+      "value": "var(--bulma-radius)",
+      "css-var": "panel-heading-radius"
+    },
+    {
+      "name": "panel-heading-size",
+      "value": "1.25em",
+      "css-var": "panel-heading-size"
+    },
+    {
+      "name": "panel-heading-weight",
+      "value": "var(--bulma-weight-bold)",
+      "css-var": "panel-heading-weight"
+    },
+    {
+      "name": "panel-tabs-font-size",
+      "value": "1em",
+      "css-var": "panel-tabs-font-size"
+    },
+    {
+      "name": "panel-tab-border-bottom-color",
+      "value": "var(--bulma-border)",
+      "css-var": "panel-tab-border-bottom-color"
+    },
+    {
+      "name": "panel-tab-border-bottom-style",
+      "value": "solid",
+      "css-var": "panel-tab-border-bottom-style"
+    },
+    {
+      "name": "panel-tab-border-bottom-width",
+      "value": "1px",
+      "css-var": "panel-tab-border-bottom-width"
+    },
+    {
+      "name": "panel-tab-active-color",
+      "value": "var(--bulma-link-active)",
+      "css-var": "panel-tab-active-color"
+    },
+    {
+      "name": "panel-list-item-color",
+      "value": "var(--bulma-text)",
+      "css-var": "panel-list-item-color"
+    },
+    {
+      "name": "panel-list-item-hover-color",
+      "value": "var(--bulma-link)",
+      "css-var": "panel-list-item-hover-color"
+    },
+    {
+      "name": "panel-block-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "panel-block-color"
+    },
+    {
+      "name": "panel-block-hover-background-color",
+      "value": "var(--bulma-background)",
+      "css-var": "panel-block-hover-background-color"
+    },
+    {
+      "name": "panel-block-active-border-left-color",
+      "value": "var(--bulma-link)",
+      "css-var": "panel-block-active-border-left-color"
+    },
+    {
+      "name": "panel-block-active-color",
+      "value": "var(--bulma-link-active)",
+      "css-var": "panel-block-active-color"
+    },
+    {
+      "name": "panel-block-active-icon-color",
+      "value": "var(--bulma-link)",
+      "css-var": "panel-block-active-icon-color"
+    },
+    {
+      "name": "panel-icon-color",
+      "value": "var(--bulma-text-weak)",
+      "css-var": "panel-icon-color"
+    },
+    {
+      "name": "panel-colors",
+      "value": "dv.$colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "panel-margin",
+      "value": "var(--bulma-block-spacing)"
+    },
+    {
+      "name": "panel-item-border",
+      "value": "1px solid var(--bulma-border-weak)"
+    },
+    {
+      "name": "panel-radius",
+      "value": "var(--bulma-radius-large)"
+    },
+    {
+      "name": "panel-shadow",
+      "value": "var(--bulma-shadow)"
+    },
+    {
+      "name": "panel-heading-line-height",
+      "value": "1.25"
+    },
+    {
+      "name": "panel-heading-padding",
+      "value": "1em 1.25em"
+    },
+    {
+      "name": "panel-heading-radius",
+      "value": "var(--bulma-radius)"
+    },
+    {
+      "name": "panel-heading-size",
+      "value": "1.25em"
+    },
+    {
+      "name": "panel-heading-weight",
+      "value": "var(--bulma-weight-bold)"
+    },
+    {
+      "name": "panel-tabs-font-size",
+      "value": "1em"
+    },
+    {
+      "name": "panel-tab-border-bottom-color",
+      "value": "var(--bulma-border)"
+    },
+    {
+      "name": "panel-tab-border-bottom-style",
+      "value": "solid"
+    },
+    {
+      "name": "panel-tab-border-bottom-width",
+      "value": "1px"
+    },
+    {
+      "name": "panel-tab-active-color",
+      "value": "var(--bulma-link-active)"
+    },
+    {
+      "name": "panel-list-item-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "panel-list-item-hover-color",
+      "value": "var(--bulma-link)"
+    },
+    {
+      "name": "panel-block-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "panel-block-hover-background-color",
+      "value": "var(--bulma-background)"
+    },
+    {
+      "name": "panel-block-active-border-left-color",
+      "value": "var(--bulma-link)"
+    },
+    {
+      "name": "panel-block-active-color",
+      "value": "var(--bulma-link-active)"
+    },
+    {
+      "name": "panel-block-active-icon-color",
+      "value": "var(--bulma-link)"
+    },
+    {
+      "name": "panel-icon-color",
+      "value": "var(--bulma-text-weak)"
+    }
+  ]
+}

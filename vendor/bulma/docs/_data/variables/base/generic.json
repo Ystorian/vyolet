@@ -1,0 +1,222 @@
+{
+  "sass-vars": [
+    {
+      "name": "body-background-color",
+      "value": "var(--bulma-scheme-main)",
+      "css-var": "body-background-color"
+    },
+    {
+      "name": "body-size",
+      "value": "1em",
+      "css-var": "body-size"
+    },
+    {
+      "name": "body-min-width",
+      "value": "300px",
+      "css-var": "body-min-width"
+    },
+    {
+      "name": "body-rendering",
+      "value": "optimizeLegibility",
+      "css-var": "body-rendering"
+    },
+    {
+      "name": "body-family",
+      "value": "var(--bulma-family-primary)",
+      "css-var": "body-family"
+    },
+    {
+      "name": "body-overflow-x",
+      "value": "hidden",
+      "css-var": "body-overflow-x"
+    },
+    {
+      "name": "body-overflow-y",
+      "value": "scroll",
+      "css-var": "body-overflow-y"
+    },
+    {
+      "name": "body-color",
+      "value": "var(--bulma-text)",
+      "css-var": "body-color"
+    },
+    {
+      "name": "body-font-size",
+      "value": "1em",
+      "css-var": "body-font-size"
+    },
+    {
+      "name": "body-weight",
+      "value": "var(--bulma-weight-normal)",
+      "css-var": "body-weight"
+    },
+    {
+      "name": "body-line-height",
+      "value": "1.5",
+      "css-var": "body-line-height"
+    },
+    {
+      "name": "code-family",
+      "value": "var(--bulma-family-code)",
+      "css-var": "code-family"
+    },
+    {
+      "name": "code-padding",
+      "value": "0.25em 0.5em 0.25em",
+      "css-var": "code-padding"
+    },
+    {
+      "name": "code-weight",
+      "value": "normal",
+      "css-var": "code-weight"
+    },
+    {
+      "name": "code-size",
+      "value": "0.875em",
+      "css-var": "code-size"
+    },
+    {
+      "name": "small-font-size",
+      "value": "0.875em",
+      "css-var": "small-font-size"
+    },
+    {
+      "name": "hr-background-color",
+      "value": "var(--bulma-background)",
+      "css-var": "hr-background-color"
+    },
+    {
+      "name": "hr-height",
+      "value": "2px",
+      "css-var": "hr-height"
+    },
+    {
+      "name": "hr-margin",
+      "value": "1.5rem 0",
+      "css-var": "hr-margin"
+    },
+    {
+      "name": "strong-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "strong-color"
+    },
+    {
+      "name": "strong-weight",
+      "value": "var(--bulma-weight-semibold)",
+      "css-var": "strong-weight"
+    },
+    {
+      "name": "pre-font-size",
+      "value": "0.875em",
+      "css-var": "pre-font-size"
+    },
+    {
+      "name": "pre-padding",
+      "value": "1.25rem 1.5rem",
+      "css-var": "pre-padding"
+    },
+    {
+      "name": "pre-code-font-size",
+      "value": "1em",
+      "css-var": "pre-code-font-size"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "body-background-color",
+      "value": "var(--bulma-scheme-main)"
+    },
+    {
+      "name": "body-size",
+      "value": "1em"
+    },
+    {
+      "name": "body-min-width",
+      "value": "300px"
+    },
+    {
+      "name": "body-rendering",
+      "value": "optimizeLegibility"
+    },
+    {
+      "name": "body-family",
+      "value": "var(--bulma-family-primary)"
+    },
+    {
+      "name": "body-overflow-x",
+      "value": "hidden"
+    },
+    {
+      "name": "body-overflow-y",
+      "value": "scroll"
+    },
+    {
+      "name": "body-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "body-font-size",
+      "value": "1em"
+    },
+    {
+      "name": "body-weight",
+      "value": "var(--bulma-weight-normal)"
+    },
+    {
+      "name": "body-line-height",
+      "value": "1.5"
+    },
+    {
+      "name": "code-family",
+      "value": "var(--bulma-family-code)"
+    },
+    {
+      "name": "code-padding",
+      "value": "0.25em 0.5em 0.25em"
+    },
+    {
+      "name": "code-weight",
+      "value": "normal"
+    },
+    {
+      "name": "code-size",
+      "value": "0.875em"
+    },
+    {
+      "name": "small-font-size",
+      "value": "0.875em"
+    },
+    {
+      "name": "hr-background-color",
+      "value": "var(--bulma-background)"
+    },
+    {
+      "name": "hr-height",
+      "value": "2px"
+    },
+    {
+      "name": "hr-margin",
+      "value": "1.5rem 0"
+    },
+    {
+      "name": "strong-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "strong-weight",
+      "value": "var(--bulma-weight-semibold)"
+    },
+    {
+      "name": "pre-font-size",
+      "value": "0.875em"
+    },
+    {
+      "name": "pre-padding",
+      "value": "1.25rem 1.5rem"
+    },
+    {
+      "name": "pre-code-font-size",
+      "value": "1em"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "sass-vars": [
+    {
+      "name": "menu-item-radius",
+      "value": "var(--bulma-radius-small)",
+      "css-var": "menu-item-radius"
+    },
+    {
+      "name": "menu-list-border-left",
+      "value": "1px solid var(--bulma-border)",
+      "css-var": "menu-list-border-left"
+    },
+    {
+      "name": "menu-list-line-height",
+      "value": "1.25",
+      "css-var": "menu-list-line-height"
+    },
+    {
+      "name": "menu-list-link-padding",
+      "value": "0.5em 0.75em",
+      "css-var": "menu-list-link-padding"
+    },
+    {
+      "name": "menu-nested-list-margin",
+      "value": "0.75em",
+      "css-var": "menu-nested-list-margin"
+    },
+    {
+      "name": "menu-nested-list-padding-left",
+      "value": "0.75em",
+      "css-var": "menu-nested-list-padding-left"
+    },
+    {
+      "name": "menu-label-color",
+      "value": "var(--bulma-text-weak)",
+      "css-var": "menu-label-color"
+    },
+    {
+      "name": "menu-label-font-size",
+      "value": "0.75em",
+      "css-var": "menu-label-font-size"
+    },
+    {
+      "name": "menu-label-letter-spacing",
+      "value": "0.1em",
+      "css-var": "menu-label-letter-spacing"
+    },
+    {
+      "name": "menu-label-spacing",
+      "value": "1em",
+      "css-var": "menu-label-spacing"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "menu-item-h",
+      "value": "#{$menu-item-h},"
+    },
+    {
+      "name": "menu-item-s",
+      "value": "#{$menu-item-s},"
+    },
+    {
+      "name": "menu-item-l",
+      "value": "#{$menu-item-l},"
+    },
+    {
+      "name": "menu-item-background-l",
+      "value": "#{$menu-item-background-l},"
+    },
+    {
+      "name": "menu-item-background-l-delta",
+      "value": "#{$menu-item-background-l-delta},"
+    },
+    {
+      "name": "menu-item-hover-background-l-delta",
+      "value": "#{$menu-item-hover-background-l-delta},"
+    },
+    {
+      "name": "menu-item-active-background-l-delta",
+      "value": "#{$menu-item-active-background-l-delta},"
+    },
+    {
+      "name": "menu-item-color-l",
+      "value": "#{$menu-item-color-l},"
+    },
+    {
+      "name": "menu-item-radius",
+      "value": "var(--bulma-radius-small)"
+    },
+    {
+      "name": "menu-item-selected-h",
+      "value": "#{$menu-item-selected-h},"
+    },
+    {
+      "name": "menu-item-selected-s",
+      "value": "#{$menu-item-selected-s},"
+    },
+    {
+      "name": "menu-item-selected-l",
+      "value": "#{$menu-item-selected-l},"
+    },
+    {
+      "name": "menu-item-selected-background-l",
+      "value": "#{$menu-item-selected-background-l},"
+    },
+    {
+      "name": "menu-item-selected-color-l",
+      "value": "#{$menu-item-selected-color-l},"
+    },
+    {
+      "name": "menu-list-border-left",
+      "value": "1px solid var(--bulma-border)"
+    },
+    {
+      "name": "menu-list-line-height",
+      "value": "1.25"
+    },
+    {
+      "name": "menu-list-link-padding",
+      "value": "0.5em 0.75em"
+    },
+    {
+      "name": "menu-nested-list-margin",
+      "value": "0.75em"
+    },
+    {
+      "name": "menu-nested-list-padding-left",
+      "value": "0.75em"
+    },
+    {
+      "name": "menu-label-color",
+      "value": "var(--bulma-text-weak)"
+    },
+    {
+      "name": "menu-label-font-size",
+      "value": "0.75em"
+    },
+    {
+      "name": "menu-label-letter-spacing",
+      "value": "0.1em"
+    },
+    {
+      "name": "menu-label-spacing",
+      "value": "1em"
+    }
+  ]
+}

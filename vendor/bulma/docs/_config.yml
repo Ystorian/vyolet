@@ -1,0 +1,21 @@
+# Meta
+
+env: "production"
+docs_file: "website.min"
+
+# Build
+
+markdown: kramdown
+permalink: pretty
+url: https://bulma.io
+exclude:
+  [
+    ".babelrc",
+    "docker-compose.yml",
+    "icons",
+    "node_modules",
+    "package.json",
+    "templates",
+    "website.scss",
+    "yarn.lock",
+  ]

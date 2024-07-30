@@ -1,0 +1,15 @@
+{
+  "sass-vars": [
+    {
+      "name": "column-gap",
+      "value": "0.75rem",
+      "css-var": "column-gap"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "column-gap",
+      "value": "0.75rem"
+    }
+  ]
+}

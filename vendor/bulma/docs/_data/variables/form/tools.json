@@ -1,0 +1,26 @@
+{
+  "sass-vars": [
+    {
+      "name": "label-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "label-weight",
+      "value": "var(--bulma-weight-semibold)"
+    },
+    {
+      "name": "help-size",
+      "value": "var(--bulma-size-small)"
+    },
+    {
+      "name": "label-colors",
+      "value": "shared.$form-colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "block-spacing",
+      "value": "0.75rem,"
+    }
+  ]
+}

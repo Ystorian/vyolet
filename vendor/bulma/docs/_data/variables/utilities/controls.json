@@ -1,0 +1,87 @@
+{
+  "sass-vars": [
+    {
+      "name": "control-radius",
+      "value": "var(--bulma-radius)",
+      "css-var": "control-radius"
+    },
+    {
+      "name": "control-radius-small",
+      "value": "var(--bulma-radius-small)",
+      "css-var": "control-radius-small"
+    },
+    {
+      "name": "control-border-width",
+      "value": "1px",
+      "css-var": "control-border-width"
+    },
+    {
+      "name": "control-size",
+      "value": "var(--bulma-size-normal)",
+      "css-var": "control-size"
+    },
+    {
+      "name": "control-height",
+      "value": "2.5em",
+      "css-var": "control-height"
+    },
+    {
+      "name": "control-line-height",
+      "value": "1.5",
+      "css-var": "control-line-height"
+    },
+    {
+      "name": "control-padding-vertical",
+      "value": "calc(0.5em - #{$control-border-width})",
+      "css-var": "control-padding-vertical"
+    },
+    {
+      "name": "control-padding-horizontal",
+      "value": "calc(0.75em - #{$control-border-width})",
+      "css-var": "control-padding-horizontal"
+    },
+    {
+      "name": "control-focus-shadow-l",
+      "value": "50%",
+      "css-var": "control-focus-shadow-l"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "control-radius",
+      "value": "var(--bulma-radius)"
+    },
+    {
+      "name": "control-radius-small",
+      "value": "var(--bulma-radius-small)"
+    },
+    {
+      "name": "control-border-width",
+      "value": "1px"
+    },
+    {
+      "name": "control-height",
+      "value": "2.5em"
+    },
+    {
+      "name": "control-line-height",
+      "value": "1.5"
+    },
+    {
+      "name": "control-padding-vertical",
+      "value": "calc(0.5em - #{$control-border-width})"
+    },
+    {
+      "name": "control-padding-horizontal",
+      "value": "calc(0.75em - #{$control-border-width})"
+    },
+    {
+      "name": "control-size",
+      "value": "var(--bulma-size-normal)"
+    },
+    {
+      "name": "control-focus-shadow-l",
+      "value": "50%"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+@use "sass/utilities/css-variables" as cv;
+
+.bd-amis {
+  --color: #fff;
+  background-color: cv.getVar("scheme-main");
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0;
+  position: relative;
+  margin: 0 -1rem;
+  justify-content: center;
+}
+
+.bd-ami {
+  background-color: var(--color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  height: 5rem;
+  position: relative;
+  vertical-align: top;
+  transition-duration: cv.getVar("duration");
+  transition-property: background-color, transform;
+  transform-origin: center;
+
+  &:hover {
+    border-radius: 0.5rem;
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: scale(1.15);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
+  }
+}
+
+.bd-ami img {
+  border-radius: 0.25rem;
+  height: auto;
+  max-height: 3rem;
+  width: auto;
+}
+
+.bd-ami-footer {
+  border-radius: 0.25rem;
+  height: 4rem;
+}
+
+.bd-ami-footer img {
+  max-width: none;
+}
+
+.bd-footer-title,
+.bd-footer-donation-title {
+  font-size: 1.125em;
+  margin-bottom: 0.5em;
+}
+
+.bd-footer-donation-action {
+  min-height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .paypal-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

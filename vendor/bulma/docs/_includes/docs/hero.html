@@ -1,0 +1,32 @@
+<section class="bd-hero is-{{ include.variant }}">
+  <div class="bd-hero-body">
+    <h1 class="bd-hero-title algolia-lvl0">
+      {{ include.title }}
+    </h1>
+
+    <hr class="bd-hr">
+
+    <h2 class="bd-hero-subtitle algolia-lvl1">
+      {{ include.subtitle }}
+    </h2>
+
+    {% if include.prints %}
+      <div class="bd-hero-prints">
+        {% for print in include.prints %}
+          <a class="bd-hero-print icon-text" href="{{ print.url }}" target="_blank">
+            <span class="icon">
+              <i class="{{ print.icon }}"></i>
+            </span>
+            <span>{{ print.label }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% unless include.hide_carbon == true %}
+    <div class="bd-hero-carbon">
+      {% include website/carbon.html %}
+    </div>
+  {% endunless %}
+</section>

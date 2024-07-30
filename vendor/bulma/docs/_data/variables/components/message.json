@@ -1,0 +1,145 @@
+{
+  "sass-vars": [
+    {
+      "name": "message-border-l-delta",
+      "value": "-20%",
+      "css-var": "message-border-l-delta"
+    },
+    {
+      "name": "message-radius",
+      "value": "var(--bulma-radius)",
+      "css-var": "message-radius"
+    },
+    {
+      "name": "message-header-weight",
+      "value": "var(--bulma-weight-semibold)",
+      "css-var": "message-header-weight"
+    },
+    {
+      "name": "message-header-padding",
+      "value": "1em 1.25em",
+      "css-var": "message-header-padding"
+    },
+    {
+      "name": "message-header-radius",
+      "value": "var(--bulma-radius)",
+      "css-var": "message-header-radius"
+    },
+    {
+      "name": "message-body-border-width",
+      "value": "0 0 0 4px",
+      "css-var": "message-body-border-width"
+    },
+    {
+      "name": "message-body-color",
+      "value": "var(--bulma-text)",
+      "css-var": "message-body-color"
+    },
+    {
+      "name": "message-body-padding",
+      "value": "1.25em 1.5em",
+      "css-var": "message-body-padding"
+    },
+    {
+      "name": "message-body-radius",
+      "value": "var(--bulma-radius-small)",
+      "css-var": "message-body-radius"
+    },
+    {
+      "name": "message-body-pre-code-background-color",
+      "value": "transparent",
+      "css-var": "message-body-pre-code-background-color"
+    },
+    {
+      "name": "message-header-body-border-width",
+      "value": "0",
+      "css-var": "message-header-body-border-width"
+    },
+    {
+      "name": "message-colors",
+      "value": "dv.$colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "message-border-l-delta",
+      "value": "-20%"
+    },
+    {
+      "name": "message-radius",
+      "value": "var(--bulma-radius)"
+    },
+    {
+      "name": "message-header-weight",
+      "value": "var(--bulma-weight-semibold)"
+    },
+    {
+      "name": "message-header-padding",
+      "value": "1em 1.25em"
+    },
+    {
+      "name": "message-header-radius",
+      "value": "var(--bulma-radius)"
+    },
+    {
+      "name": "message-body-border-width",
+      "value": "0 0 0 4px"
+    },
+    {
+      "name": "message-body-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "message-body-padding",
+      "value": "1.25em 1.5em"
+    },
+    {
+      "name": "message-body-radius",
+      "value": "var(--bulma-radius-small)"
+    },
+    {
+      "name": "message-body-pre-code-background-color",
+      "value": "transparent"
+    },
+    {
+      "name": "message-header-body-border-width",
+      "value": "0"
+    },
+    {
+      "name": "message-h",
+      "value": "#{$message-h},"
+    },
+    {
+      "name": "message-s",
+      "value": "#{$message-s},"
+    },
+    {
+      "name": "message-background-l",
+      "value": "#{$message-background-l},"
+    },
+    {
+      "name": "message-border-l",
+      "value": "#{$message-border-l},"
+    },
+    {
+      "name": "message-border-style",
+      "value": "#{$message-border-style},"
+    },
+    {
+      "name": "message-border-width",
+      "value": "#{$message-border-width},"
+    },
+    {
+      "name": "message-color-l",
+      "value": "#{$message-color-l},"
+    },
+    {
+      "name": "message-header-background-l",
+      "value": "#{$message-header-background-l},"
+    },
+    {
+      "name": "message-header-color-l",
+      "value": "#{$message-header-color-l},"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "sass-vars": [
+    {
+      "name": "breadcrumb-item-color",
+      "value": "var(--bulma-link-text)",
+      "css-var": "breadcrumb-item-color"
+    },
+    {
+      "name": "breadcrumb-item-hover-color",
+      "value": "var(--bulma-link-text-hover)",
+      "css-var": "breadcrumb-item-hover-color"
+    },
+    {
+      "name": "breadcrumb-item-active-color",
+      "value": "var(--bulma-link-text-active)",
+      "css-var": "breadcrumb-item-active-color"
+    },
+    {
+      "name": "breadcrumb-item-padding-vertical",
+      "value": "0",
+      "css-var": "breadcrumb-item-padding-vertical"
+    },
+    {
+      "name": "breadcrumb-item-padding-horizontal",
+      "value": "0.75em",
+      "css-var": "breadcrumb-item-padding-horizontal"
+    },
+    {
+      "name": "breadcrumb-item-separator-color",
+      "value": "var(--bulma-border)",
+      "css-var": "breadcrumb-item-separator-color"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "breadcrumb-item-color",
+      "value": "var(--bulma-link-text)"
+    },
+    {
+      "name": "breadcrumb-item-hover-color",
+      "value": "var(--bulma-link-text-hover)"
+    },
+    {
+      "name": "breadcrumb-item-active-color",
+      "value": "var(--bulma-link-text-active)"
+    },
+    {
+      "name": "breadcrumb-item-padding-vertical",
+      "value": "0"
+    },
+    {
+      "name": "breadcrumb-item-padding-horizontal",
+      "value": "0.75em"
+    },
+    {
+      "name": "breadcrumb-item-separator-color",
+      "value": "var(--bulma-border)"
+    }
+  ]
+}

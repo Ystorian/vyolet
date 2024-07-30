@@ -1,0 +1,33 @@
+{
+  "sass-vars": [
+    {
+      "name": "footer-background-color",
+      "value": "var(--bulma-scheme-main-bis)",
+      "css-var": "footer-background-color"
+    },
+    {
+      "name": "footer-color",
+      "value": "false",
+      "css-var": "footer-color"
+    },
+    {
+      "name": "footer-padding",
+      "value": "3rem 1.5rem 6rem",
+      "css-var": "footer-padding"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "footer-background-color",
+      "value": "var(--bulma-scheme-main-bis)"
+    },
+    {
+      "name": "footer-color",
+      "value": "false"
+    },
+    {
+      "name": "footer-padding",
+      "value": "3rem 1.5rem 6rem"
+    }
+  ]
+}
