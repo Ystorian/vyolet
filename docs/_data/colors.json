@@ -1,0 +1,18 @@
+{
+  "lists": ["scheme", "text", "ornament", "code", "link", "status"],
+  "scheme": [
+    "scheme-main",
+    "scheme-main-bis",
+    "scheme-main-ter",
+    "scheme-invert",
+    "scheme-invert-bis",
+    "scheme-invert-ter"
+  ],
+  "text": ["text", "text-invert", "text-light", "text-strong"],
+  "ornament": ["background", "border", "border-light"],
+  "code": ["code", "code-background", "pre", "pre-background"],
+  "link": ["link-visited"],
+  "status": ["text", "link", "primary", "info", "success", "warning", "danger"],
+  "sizes": ["small", "normal", "medium", "large"],
+  "justColors": ["link", "primary", "info", "success", "warning", "danger"]
+}

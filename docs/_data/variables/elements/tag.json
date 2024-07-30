@@ -1,0 +1,56 @@
+{
+  "sass-vars": [
+    {
+      "name": "tag-radius",
+      "value": "var(--bulma-radius)",
+      "css-var": "tag-radius"
+    },
+    {
+      "name": "tag-delete-margin",
+      "value": "1px",
+      "css-var": "tag-delete-margin"
+    },
+    {
+      "name": "tag-colors",
+      "value": "dv.$colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "tag-h",
+      "value": "#{$tag-h},"
+    },
+    {
+      "name": "tag-s",
+      "value": "#{$tag-s},"
+    },
+    {
+      "name": "tag-background-l",
+      "value": "#{$tag-background-l},"
+    },
+    {
+      "name": "tag-background-l-delta",
+      "value": "#{$tag-background-l-delta},"
+    },
+    {
+      "name": "tag-hover-background-l-delta",
+      "value": "#{$tag-hover-background-l-delta},"
+    },
+    {
+      "name": "tag-active-background-l-delta",
+      "value": "#{$tag-active-background-l-delta},"
+    },
+    {
+      "name": "tag-color-l",
+      "value": "#{$tag-color-l},"
+    },
+    {
+      "name": "tag-radius",
+      "value": "var(--bulma-radius)"
+    },
+    {
+      "name": "tag-delete-margin",
+      "value": "1px"
+    }
+  ]
+}

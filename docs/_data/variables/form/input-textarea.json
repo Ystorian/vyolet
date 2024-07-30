@@ -1,0 +1,42 @@
+{
+  "sass-vars": [
+    {
+      "name": "textarea-padding",
+      "value": "var(--bulma-control-padding-horizontal)"
+    },
+    {
+      "name": "textarea-max-height",
+      "value": "40em"
+    },
+    {
+      "name": "textarea-min-height",
+      "value": "8em"
+    },
+    {
+      "name": "textarea-colors",
+      "value": "shared.$form-colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "input-h",
+      "value": "#{cv.getVar(\"scheme-h\")},"
+    },
+    {
+      "name": "input-s",
+      "value": "#{cv.getVar(\"scheme-s\")},"
+    },
+    {
+      "name": "input-border-style",
+      "value": "solid,"
+    },
+    {
+      "name": "input-border-width",
+      "value": "1px,"
+    },
+    {
+      "name": "input-border-l",
+      "value": "#{cv.getVar(\"border-l\")},"
+    }
+  ]
+}

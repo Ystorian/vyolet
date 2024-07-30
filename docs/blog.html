@@ -1,0 +1,30 @@
+---
+layout: default
+route: blog
+breadcrumb:
+- home
+- blog
+---
+
+{% capture hero_content %}
+{% include docs/elements/rss-button.html %}
+{% endcapture %}
+{%
+  include docs/components/hero.html
+  color="primary"
+  icon="fas fa-rss"
+  title="The **official** Bulma **blog**"
+  subtitle="Stay updated about new features, bug fixes, and releases"
+  content=hero_content
+%}
+
+<main class="bd-main">
+  <div class="bd-posts">
+    {% for post in site.posts %}
+      {%
+        include docs/elements/post.html
+        post=post
+      %}
+    {% endfor %}
+  </div>
+</main>

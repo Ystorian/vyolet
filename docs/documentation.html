@@ -1,0 +1,46 @@
+---
+layout: docs
+route: documentation
+title: Official Bulma Documentation
+subtitle: Everything you need to create a website with Bulma.
+hero_prints:
+- label: "Creative Commons"
+  icon: "fab fa-creative-commons"
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+- label: "Contribute on GitHub"
+  icon: "fas fa-code-pull-request"
+  url: https://github.com/jgthms/bulma
+---
+{% assign category_ids = site.data.links.category_ids %}
+
+<div class="bd-stack">
+  {% for category_id in category_ids %}
+    {% assign category = site.data.links.by_id[category_id] %}
+    {% assign link_ids = site.data.links.categories[category_id] %}
+
+    <h3 class="bd-link-heading bd-theme-{{ category_id }}">
+      <span class="icon">
+        <i class="{{ category.icon }}"></i>
+      </span>
+      <strong>{{ category.name }}</strong>
+    </h3>
+
+    <div class="bd-links bd-theme-{{ category_id }}">
+      {% for link_id in link_ids %}
+        {% assign link = site.data.links.by_id[link_id] %}
+
+        {%
+          include docs/elements/link.html
+          path=link.path
+          color=link.color
+          icon_brand=link.icon_brand
+          icon_regular=link.icon_regular
+          icon=link.icon
+          name=link.name
+          subtitle=link.subtitle
+          new=link.new
+        %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

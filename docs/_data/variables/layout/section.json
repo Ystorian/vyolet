@@ -1,0 +1,42 @@
+{
+  "sass-vars": [
+    {
+      "name": "section-padding",
+      "value": "3rem 1.5rem",
+      "css-var": "section-padding"
+    },
+    {
+      "name": "section-padding-desktop",
+      "value": "3rem 3rem",
+      "css-var": "section-padding-desktop"
+    },
+    {
+      "name": "section-padding-medium",
+      "value": "9rem 4.5rem",
+      "css-var": "section-padding-medium"
+    },
+    {
+      "name": "section-padding-large",
+      "value": "18rem 6rem",
+      "css-var": "section-padding-large"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "section-padding",
+      "value": "3rem 1.5rem"
+    },
+    {
+      "name": "section-padding-desktop",
+      "value": "3rem 3rem"
+    },
+    {
+      "name": "section-padding-medium",
+      "value": "9rem 4.5rem"
+    },
+    {
+      "name": "section-padding-large",
+      "value": "18rem 6rem"
+    }
+  ]
+}

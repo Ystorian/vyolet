@@ -1,0 +1,159 @@
+{
+  "sass-vars": [
+    {
+      "name": "content-heading-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "content-heading-color"
+    },
+    {
+      "name": "content-heading-weight",
+      "value": "var(--bulma-weight-extrabold)",
+      "css-var": "content-heading-weight"
+    },
+    {
+      "name": "content-heading-line-height",
+      "value": "1.125",
+      "css-var": "content-heading-line-height"
+    },
+    {
+      "name": "content-block-margin-bottom",
+      "value": "1em",
+      "css-var": "content-block-margin-bottom"
+    },
+    {
+      "name": "content-blockquote-background-color",
+      "value": "var(--bulma-background)",
+      "css-var": "content-blockquote-background-color"
+    },
+    {
+      "name": "content-blockquote-border-left",
+      "value": "5px solid var(--bulma-border)",
+      "css-var": "content-blockquote-border-left"
+    },
+    {
+      "name": "content-blockquote-padding",
+      "value": "1.25em 1.5em",
+      "css-var": "content-blockquote-padding"
+    },
+    {
+      "name": "content-pre-padding",
+      "value": "1.25em 1.5em",
+      "css-var": "content-pre-padding"
+    },
+    {
+      "name": "content-table-cell-border",
+      "value": "1px solid var(--bulma-border)",
+      "css-var": "content-table-cell-border"
+    },
+    {
+      "name": "content-table-cell-border-width",
+      "value": "0 0 1px",
+      "css-var": "content-table-cell-border-width"
+    },
+    {
+      "name": "content-table-cell-padding",
+      "value": "0.5em 0.75em",
+      "css-var": "content-table-cell-padding"
+    },
+    {
+      "name": "content-table-cell-heading-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "content-table-cell-heading-color"
+    },
+    {
+      "name": "content-table-head-cell-border-width",
+      "value": "0 0 2px",
+      "css-var": "content-table-head-cell-border-width"
+    },
+    {
+      "name": "content-table-head-cell-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "content-table-head-cell-color"
+    },
+    {
+      "name": "content-table-body-last-row-cell-border-bottom-width",
+      "value": "0",
+      "css-var": "content-table-body-last-row-cell-border-bottom-width"
+    },
+    {
+      "name": "content-table-foot-cell-border-width",
+      "value": "2px 0 0",
+      "css-var": "content-table-foot-cell-border-width"
+    },
+    {
+      "name": "content-table-foot-cell-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "content-table-foot-cell-color"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "content-heading-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "content-heading-weight",
+      "value": "var(--bulma-weight-extrabold)"
+    },
+    {
+      "name": "content-heading-line-height",
+      "value": "1.125"
+    },
+    {
+      "name": "content-block-margin-bottom",
+      "value": "1em"
+    },
+    {
+      "name": "content-blockquote-background-color",
+      "value": "var(--bulma-background)"
+    },
+    {
+      "name": "content-blockquote-border-left",
+      "value": "5px solid var(--bulma-border)"
+    },
+    {
+      "name": "content-blockquote-padding",
+      "value": "1.25em 1.5em"
+    },
+    {
+      "name": "content-pre-padding",
+      "value": "1.25em 1.5em"
+    },
+    {
+      "name": "content-table-cell-border",
+      "value": "1px solid var(--bulma-border)"
+    },
+    {
+      "name": "content-table-cell-border-width",
+      "value": "0 0 1px"
+    },
+    {
+      "name": "content-table-cell-padding",
+      "value": "0.5em 0.75em"
+    },
+    {
+      "name": "content-table-cell-heading-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "content-table-head-cell-border-width",
+      "value": "0 0 2px"
+    },
+    {
+      "name": "content-table-head-cell-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "content-table-body-last-row-cell-border-bottom-width",
+      "value": "0"
+    },
+    {
+      "name": "content-table-foot-cell-border-width",
+      "value": "2px 0 0"
+    },
+    {
+      "name": "content-table-foot-cell-color",
+      "value": "var(--bulma-text-strong)"
+    }
+  ]
+}

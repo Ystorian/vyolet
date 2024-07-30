@@ -1,0 +1,46 @@
+{
+  "sass-vars": [
+    {
+      "name": "progress-bar-background-color",
+      "value": "var(--bulma-border-weak)",
+      "css-var": "progress-bar-background-color"
+    },
+    {
+      "name": "progress-value-background-color",
+      "value": "var(--bulma-text)",
+      "css-var": "progress-value-background-color"
+    },
+    {
+      "name": "progress-border-radius",
+      "value": "var(--bulma-radius-rounded)",
+      "css-var": "progress-border-radius"
+    },
+    {
+      "name": "progress-indeterminate-duration",
+      "value": "1.5s",
+      "css-var": "progress-indeterminate-duration"
+    },
+    {
+      "name": "progress-colors",
+      "value": "dv.$colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "progress-border-radius",
+      "value": "var(--bulma-radius-rounded)"
+    },
+    {
+      "name": "progress-bar-background-color",
+      "value": "var(--bulma-border-weak)"
+    },
+    {
+      "name": "progress-value-background-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "progress-indeterminate-duration",
+      "value": "1.5s"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "sass-vars": [
+    {
+      "name": "scheme-main",
+      "value": "iv.$white"
+    },
+    {
+      "name": "scheme-main-bis",
+      "value": "iv.$white-bis"
+    },
+    {
+      "name": "scheme-main-ter",
+      "value": "iv.$white-ter"
+    },
+    {
+      "name": "scheme-invert",
+      "value": "iv.$black"
+    },
+    {
+      "name": "scheme-invert-bis",
+      "value": "iv.$black-bis"
+    },
+    {
+      "name": "scheme-invert-ter",
+      "value": "iv.$black-ter"
+    },
+    {
+      "name": "text",
+      "value": "iv.$grey-dark"
+    },
+    {
+      "name": "text-invert",
+      "value": "fn.bulmaFindColorInvert($text)"
+    },
+    {
+      "name": "text-weak",
+      "value": "iv.$grey"
+    },
+    {
+      "name": "text-strong",
+      "value": "iv.$grey-darker"
+    },
+    {
+      "name": "primary",
+      "value": "iv.$turquoise"
+    },
+    {
+      "name": "info",
+      "value": "iv.$cyan"
+    },
+    {
+      "name": "success",
+      "value": "iv.$green"
+    },
+    {
+      "name": "warning",
+      "value": "iv.$yellow"
+    },
+    {
+      "name": "danger",
+      "value": "iv.$red"
+    },
+    {
+      "name": "light",
+      "value": "iv.$white-ter"
+    },
+    {
+      "name": "dark",
+      "value": "iv.$grey-darker"
+    },
+    {
+      "name": "link",
+      "value": "iv.$blue"
+    },
+    {
+      "name": "background",
+      "value": "iv.$white-ter"
+    },
+    {
+      "name": "border",
+      "value": "iv.$grey-lighter"
+    },
+    {
+      "name": "border-weak",
+      "value": "iv.$grey-lightest"
+    },
+    {
+      "name": "code",
+      "value": "iv.$red"
+    },
+    {
+      "name": "code-background",
+      "value": "$background"
+    },
+    {
+      "name": "pre",
+      "value": "$text"
+    },
+    {
+      "name": "pre-background",
+      "value": "$background"
+    },
+    {
+      "name": "family-primary",
+      "value": "iv.$family-sans-serif"
+    },
+    {
+      "name": "family-secondary",
+      "value": "iv.$family-sans-serif"
+    },
+    {
+      "name": "family-code",
+      "value": "iv.$family-monospace"
+    },
+    {
+      "name": "size-small",
+      "value": "iv.$size-7"
+    },
+    {
+      "name": "size-normal",
+      "value": "iv.$size-6"
+    },
+    {
+      "name": "size-medium",
+      "value": "iv.$size-5"
+    },
+    {
+      "name": "size-large",
+      "value": "iv.$size-4"
+    },
+    {
+      "name": "shadow-color",
+      "value": "iv.$black"
+    },
+    {
+      "name": "custom-colors",
+      "value": "null"
+    },
+    {
+      "name": "custom-shades",
+      "value": "null"
+    },
+    {
+      "name": "colors",
+      "value": "fn.mergeColorMaps(\n  (\n    \"white\": (\n      iv.$white,\n      iv.$black,\n    ),\n    \"black\": (\n      iv.$black,\n      iv.$white,\n    ),\n    \"light\": (\n      $light,\n      $dark,\n    ),\n    \"dark\": (\n      $dark,\n      $light,\n    ),\n    \"text\": $text,\n    \"primary\": $primary,\n    \"link\": $link,\n    \"info\": $info,\n    \"success\": $success,\n    \"warning\": $warning,\n    \"danger\": $danger,\n  ),\n  $custom-colors\n)"
+    },
+    {
+      "name": "shades",
+      "value": "fn.mergeColorMaps(\n  (\n    \"black-bis\": iv.$black-bis,\n    \"black-ter\": iv.$black-ter,\n    \"grey-darker\": iv.$grey-darker,\n    \"grey-dark\": iv.$grey-dark,\n    \"grey\": iv.$grey,\n    \"grey-light\": iv.$grey-light,\n    \"grey-lighter\": iv.$grey-lighter,\n    \"white-ter\": iv.$white-ter,\n    \"white-bis\": iv.$white-bis,\n  ),\n  $custom-shades\n)"
+    },
+    {
+      "name": "sizes",
+      "value": "iv.$size-1 iv.$size-2 iv.$size-3 iv.$size-4 iv.$size-5 iv.$size-6\n  iv.$size-7"
+    }
+  ],
+  "css-vars": []
+}

@@ -1,0 +1,150 @@
+{
+  "sass-vars": [
+    {
+      "name": "title-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "title-color"
+    },
+    {
+      "name": "title-family",
+      "value": "false",
+      "css-var": "title-family"
+    },
+    {
+      "name": "title-size",
+      "value": "var(--bulma-size-3)",
+      "css-var": "title-size"
+    },
+    {
+      "name": "title-weight",
+      "value": "var(--bulma-weight-extrabold)",
+      "css-var": "title-weight"
+    },
+    {
+      "name": "title-line-height",
+      "value": "1.125",
+      "css-var": "title-line-height"
+    },
+    {
+      "name": "title-strong-color",
+      "value": "inherit",
+      "css-var": "title-strong-color"
+    },
+    {
+      "name": "title-strong-weight",
+      "value": "inherit",
+      "css-var": "title-strong-weight"
+    },
+    {
+      "name": "title-sub-size",
+      "value": "0.75em",
+      "css-var": "title-sub-size"
+    },
+    {
+      "name": "title-sup-size",
+      "value": "0.75em",
+      "css-var": "title-sup-size"
+    },
+    {
+      "name": "subtitle-color",
+      "value": "var(--bulma-text)",
+      "css-var": "subtitle-color"
+    },
+    {
+      "name": "subtitle-family",
+      "value": "false",
+      "css-var": "subtitle-family"
+    },
+    {
+      "name": "subtitle-size",
+      "value": "var(--bulma-size-5)",
+      "css-var": "subtitle-size"
+    },
+    {
+      "name": "subtitle-weight",
+      "value": "var(--bulma-weight-normal)",
+      "css-var": "subtitle-weight"
+    },
+    {
+      "name": "subtitle-line-height",
+      "value": "1.25",
+      "css-var": "subtitle-line-height"
+    },
+    {
+      "name": "subtitle-strong-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "subtitle-strong-color"
+    },
+    {
+      "name": "subtitle-strong-weight",
+      "value": "var(--bulma-weight-semibold)",
+      "css-var": "subtitle-strong-weight"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "title-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "title-family",
+      "value": "false"
+    },
+    {
+      "name": "title-size",
+      "value": "var(--bulma-size-3)"
+    },
+    {
+      "name": "title-weight",
+      "value": "var(--bulma-weight-extrabold)"
+    },
+    {
+      "name": "title-line-height",
+      "value": "1.125"
+    },
+    {
+      "name": "title-strong-color",
+      "value": "inherit"
+    },
+    {
+      "name": "title-strong-weight",
+      "value": "inherit"
+    },
+    {
+      "name": "title-sub-size",
+      "value": "0.75em"
+    },
+    {
+      "name": "title-sup-size",
+      "value": "0.75em"
+    },
+    {
+      "name": "subtitle-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "subtitle-family",
+      "value": "false"
+    },
+    {
+      "name": "subtitle-size",
+      "value": "var(--bulma-size-5)"
+    },
+    {
+      "name": "subtitle-weight",
+      "value": "var(--bulma-weight-normal)"
+    },
+    {
+      "name": "subtitle-line-height",
+      "value": "1.25"
+    },
+    {
+      "name": "subtitle-strong-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "subtitle-strong-weight",
+      "value": "var(--bulma-weight-semibold)"
+    }
+  ]
+}

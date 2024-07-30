@@ -1,0 +1,127 @@
+{
+  "sass-vars": [
+    {
+      "name": "file-radius",
+      "value": "var(--bulma-radius)",
+      "css-var": "file-radius"
+    },
+    {
+      "name": "file-cta-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "file-cta-hover-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "file-cta-active-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "file-name-border-color",
+      "value": "var(--bulma-border)",
+      "css-var": "file-name-border-color"
+    },
+    {
+      "name": "file-name-border-style",
+      "value": "solid",
+      "css-var": "file-name-border-style"
+    },
+    {
+      "name": "file-name-border-width",
+      "value": "1px 1px 1px 0",
+      "css-var": "file-name-border-width"
+    },
+    {
+      "name": "file-name-max-width",
+      "value": "16em",
+      "css-var": "file-name-max-width"
+    },
+    {
+      "name": "file-colors",
+      "value": "shared.$form-colors"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "file-radius",
+      "value": "var(--bulma-radius)"
+    },
+    {
+      "name": "file-name-border-color",
+      "value": "var(--bulma-border)"
+    },
+    {
+      "name": "file-name-border-style",
+      "value": "solid"
+    },
+    {
+      "name": "file-name-border-width",
+      "value": "1px 1px 1px 0"
+    },
+    {
+      "name": "file-name-max-width",
+      "value": "16em"
+    },
+    {
+      "name": "file-h",
+      "value": "#{$file-h},"
+    },
+    {
+      "name": "file-s",
+      "value": "#{$file-s},"
+    },
+    {
+      "name": "file-background-l",
+      "value": "#{$file-background-l},"
+    },
+    {
+      "name": "file-background-l-delta",
+      "value": "#{$file-background-l-delta},"
+    },
+    {
+      "name": "file-hover-background-l-delta",
+      "value": "#{$file-hover-background-l-delta},"
+    },
+    {
+      "name": "file-active-background-l-delta",
+      "value": "#{$file-active-background-l-delta},"
+    },
+    {
+      "name": "file-border-l",
+      "value": "#{$file-border-l},"
+    },
+    {
+      "name": "file-border-l-delta",
+      "value": "#{$file-border-l-delta},"
+    },
+    {
+      "name": "file-hover-border-l-delta",
+      "value": "#{$file-hover-border-l-delta},"
+    },
+    {
+      "name": "file-active-border-l-delta",
+      "value": "#{$file-active-border-l-delta},"
+    },
+    {
+      "name": "file-cta-color-l",
+      "value": "#{$file-cta-color-l},"
+    },
+    {
+      "name": "file-name-color-l",
+      "value": "#{$file-name-color-l},"
+    },
+    {
+      "name": "file-color-l-delta",
+      "value": "#{$file-color-l-delta},"
+    },
+    {
+      "name": "file-hover-color-l-delta",
+      "value": "#{$file-hover-color-l-delta},"
+    },
+    {
+      "name": "file-active-color-l-delta",
+      "value": "#{$file-active-color-l-delta},"
+    }
+  ]
+}

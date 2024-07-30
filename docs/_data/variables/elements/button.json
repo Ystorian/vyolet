@@ -1,0 +1,275 @@
+{
+  "sass-vars": [
+    {
+      "name": "button-weight",
+      "value": "var(--bulma-weight-medium)",
+      "css-var": "button-weight"
+    },
+    {
+      "name": "button-family",
+      "value": "false",
+      "css-var": "button-family"
+    },
+    {
+      "name": "button-border-color",
+      "value": "var(--bulma-border)",
+      "css-var": "button-border-color"
+    },
+    {
+      "name": "button-border-style",
+      "value": "solid",
+      "css-var": "button-border-style"
+    },
+    {
+      "name": "button-border-width",
+      "value": "var(--bulma-control-border-width)",
+      "css-var": "button-border-width"
+    },
+    {
+      "name": "button-padding-vertical",
+      "value": "0.5em",
+      "css-var": "button-padding-vertical"
+    },
+    {
+      "name": "button-padding-horizontal",
+      "value": "1em",
+      "css-var": "button-padding-horizontal"
+    },
+    {
+      "name": "button-focus-border-color",
+      "value": "var(--bulma-link-focus-border)",
+      "css-var": "button-focus-border-color"
+    },
+    {
+      "name": "button-focus-box-shadow-size",
+      "value": "0 0 0 0.125em",
+      "css-var": "button-focus-box-shadow-size"
+    },
+    {
+      "name": "button-focus-box-shadow-color",
+      "value": "hsla(\n  var(--bulma-link-h),\n  var(--bulma-link-s),\n  var(--bulma-link-on-scheme-l),\n  0.25\n)",
+      "css-var": "button-focus-box-shadow-color"
+    },
+    {
+      "name": "button-active-color",
+      "value": "var(--bulma-link-active)",
+      "css-var": "button-active-color"
+    },
+    {
+      "name": "button-active-border-color",
+      "value": "var(--bulma-link-active-border)",
+      "css-var": "button-active-border-color"
+    },
+    {
+      "name": "button-text-color",
+      "value": "var(--bulma-text)",
+      "css-var": "button-text-color"
+    },
+    {
+      "name": "button-text-decoration",
+      "value": "underline",
+      "css-var": "button-text-decoration"
+    },
+    {
+      "name": "button-text-hover-background-color",
+      "value": "var(--bulma-background)",
+      "css-var": "button-text-hover-background-color"
+    },
+    {
+      "name": "button-text-hover-color",
+      "value": "var(--bulma-text-strong)",
+      "css-var": "button-text-hover-color"
+    },
+    {
+      "name": "button-ghost-background",
+      "value": "none",
+      "css-var": "button-ghost-background"
+    },
+    {
+      "name": "button-ghost-border-color",
+      "value": "transparent",
+      "css-var": "button-ghost-border-color"
+    },
+    {
+      "name": "button-ghost-color",
+      "value": "var(--bulma-link-text)",
+      "css-var": "button-ghost-color"
+    },
+    {
+      "name": "button-ghost-decoration",
+      "value": "none",
+      "css-var": "button-ghost-decoration"
+    },
+    {
+      "name": "button-ghost-hover-color",
+      "value": "var(--bulma-link)",
+      "css-var": "button-ghost-hover-color"
+    },
+    {
+      "name": "button-ghost-hover-decoration",
+      "value": "underline",
+      "css-var": "button-ghost-hover-decoration"
+    },
+    {
+      "name": "button-disabled-background-color",
+      "value": "var(--bulma-scheme-main)",
+      "css-var": "button-disabled-background-color"
+    },
+    {
+      "name": "button-disabled-border-color",
+      "value": "var(--bulma-border)",
+      "css-var": "button-disabled-border-color"
+    },
+    {
+      "name": "button-disabled-shadow",
+      "value": "none",
+      "css-var": "button-disabled-shadow"
+    },
+    {
+      "name": "button-disabled-opacity",
+      "value": "0.5",
+      "css-var": "button-disabled-opacity"
+    },
+    {
+      "name": "button-static-color",
+      "value": "var(--bulma-text-weak)",
+      "css-var": "button-static-color"
+    },
+    {
+      "name": "button-static-background-color",
+      "value": "var(--bulma-scheme-main-ter)",
+      "css-var": "button-static-background-color"
+    },
+    {
+      "name": "button-static-border-color",
+      "value": "var(--bulma-border)",
+      "css-var": "button-static-border-color"
+    },
+    {
+      "name": "button-colors",
+      "value": "dv.$colors"
+    },
+    {
+      "name": "button-responsive-sizes",
+      "value": "(\n  \"mobile\": (\n    \"small\": calc(var(--bulma-size-small) * 0.75),\n    \"normal\": calc(var(--bulma-size-small) * 0.875),\n    \"medium\": var(--bulma-size-small),\n    \"large\": var(--bulma-size-normal),\n  ),\n  \"tablet-only\": (\n    \"small\": calc(var(--bulma-size-small) * 0.875),\n    \"normal\": var(--bulma-size-small),\n    \"medium\": var(--bulma-size-normal),\n    \"large\": var(--bulma-size-medium),\n  ),\n)"
+    }
+  ],
+  "css-vars": [
+    {
+      "name": "button-family",
+      "value": "false"
+    },
+    {
+      "name": "button-weight",
+      "value": "var(--bulma-weight-medium)"
+    },
+    {
+      "name": "button-border-color",
+      "value": "var(--bulma-border)"
+    },
+    {
+      "name": "button-border-style",
+      "value": "solid"
+    },
+    {
+      "name": "button-border-width",
+      "value": "var(--bulma-control-border-width)"
+    },
+    {
+      "name": "button-padding-vertical",
+      "value": "0.5em"
+    },
+    {
+      "name": "button-padding-horizontal",
+      "value": "1em"
+    },
+    {
+      "name": "button-focus-border-color",
+      "value": "var(--bulma-link-focus-border)"
+    },
+    {
+      "name": "button-focus-box-shadow-size",
+      "value": "0 0 0 0.125em"
+    },
+    {
+      "name": "button-focus-box-shadow-color",
+      "value": "hsla(\n  var(--bulma-link-h),\n  var(--bulma-link-s),\n  var(--bulma-link-on-scheme-l),\n  0.25\n)"
+    },
+    {
+      "name": "button-active-color",
+      "value": "var(--bulma-link-active)"
+    },
+    {
+      "name": "button-active-border-color",
+      "value": "var(--bulma-link-active-border)"
+    },
+    {
+      "name": "button-text-color",
+      "value": "var(--bulma-text)"
+    },
+    {
+      "name": "button-text-decoration",
+      "value": "underline"
+    },
+    {
+      "name": "button-text-hover-background-color",
+      "value": "var(--bulma-background)"
+    },
+    {
+      "name": "button-text-hover-color",
+      "value": "var(--bulma-text-strong)"
+    },
+    {
+      "name": "button-ghost-background",
+      "value": "none"
+    },
+    {
+      "name": "button-ghost-border-color",
+      "value": "transparent"
+    },
+    {
+      "name": "button-ghost-color",
+      "value": "var(--bulma-link-text)"
+    },
+    {
+      "name": "button-ghost-decoration",
+      "value": "none"
+    },
+    {
+      "name": "button-ghost-hover-color",
+      "value": "var(--bulma-link)"
+    },
+    {
+      "name": "button-ghost-hover-decoration",
+      "value": "underline"
+    },
+    {
+      "name": "button-disabled-background-color",
+      "value": "var(--bulma-scheme-main)"
+    },
+    {
+      "name": "button-disabled-border-color",
+      "value": "var(--bulma-border)"
+    },
+    {
+      "name": "button-disabled-shadow",
+      "value": "none"
+    },
+    {
+      "name": "button-disabled-opacity",
+      "value": "0.5"
+    },
+    {
+      "name": "button-static-color",
+      "value": "var(--bulma-text-weak)"
+    },
+    {
+      "name": "button-static-background-color",
+      "value": "var(--bulma-scheme-main-ter)"
+    },
+    {
+      "name": "button-static-border-color",
+      "value": "var(--bulma-border)"
+    }
+  ]
+}
