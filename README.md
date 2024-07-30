@@ -19,15 +19,17 @@ checkout based on tags.
 
 ### Bulma
 
-Add the Bulma repository in `vendor/bulma`, and keep only the `sass` subdirectory.
+The Bulma repository is vendored in `vendor/bulma`.
 
 ```shell
-git submodule add git@github.com:ystorian/bulma.git vendor/bulma
-cd vendor/bulma
-git sparse-checkout init --cone
-git sparse-checkout set sass
-git checkout vyolet-bulma-0.9.5
+git subtree add --prefix=vendor/bulma https://github.com/jgthms/bulma.git 1.0.2 --squash
 ```
+
+To update the Bulma version, simply checkout the desired `<tag>` and commit.
+
+```shell
+git subtree pull --prefix=vendor/bulma https://github.com/jgthms/bulma.git <tag> --squash
+
 
 ### Lucide
 
