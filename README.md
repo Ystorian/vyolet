@@ -2,6 +2,14 @@
 
 Zola theme for [ystorian.com](https://ystorian.com).
 
+## Usage
+
+Add the **Vyolet** theme as a submodule to an existing git repository:
+
+```shell
+git subtree add https://github.com/ystorian/vyolet.git themes/vyolet
+```
+
 ## Dependencies
 
 The following repositories were forked to be used as git submodules in this
