@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+
+// Load Bulma's base styles and themes (including the minireset)
+@use "../../vendor/bulma/sass/base";
+@use "../../vendor/bulma/sass/themes";
+
 // Important:
 // - Use a relative path (../) for @import.
 // - Keep the `vendor` directory out of the sass/css directory.
@@ -8,23 +13,23 @@
 // all the Bulma CSS files are present.
 
 // Import the initial Bulma variables.
-@import "../../vendor/bulma/sass/utilities/initial-variables.sass";
+@import "../../vendor/bulma/sass/utilities/initial-variables.scss";
 // Import the Bulma functions to help with variable redefinition.
-@import "../../vendor/bulma/sass/utilities/functions.sass";
+@import "../../vendor/bulma/sass/utilities/functions.scss";
 
 // Set the theme variables.
 @import "variables";
 
 
 // Import the rest of the Bulma SASS files.
-@import "../../vendor/bulma/sass/utilities/_all.sass";
-@import "../../vendor/bulma/sass/base/_all.sass";
-@import "../../vendor/bulma/sass/elements/_all.sass";
-@import "../../vendor/bulma/sass/form/_all.sass";
-@import "../../vendor/bulma/sass/components/_all.sass";
-@import "../../vendor/bulma/sass/layout/_all.sass";
-@import "../../vendor/bulma/sass/grid/_all.sass";
-@import "../../vendor/bulma/sass/helpers/_all.sass";
+@import "../../vendor/bulma/sass/utilities";
+@import "../../vendor/bulma/sass/base";
+@import "../../vendor/bulma/sass/elements";
+@import "../../vendor/bulma/sass/form";
+@import "../../vendor/bulma/sass/components";
+@import "../../vendor/bulma/sass/layout";
+@import "../../vendor/bulma/sass/grid";
+@import "../../vendor/bulma/sass/helpers";
 
 
 // Import Vyolet custom SCSS files.
